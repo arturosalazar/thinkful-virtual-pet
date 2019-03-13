@@ -51,7 +51,7 @@ $(function() {
     }
     if (pet_info.weight > 90){
       alert(`${pet_info.name}'s weight is too high! Stop feeding your pet!`);
-      pet_info.weight = 0;
+      pet_info.weight = 90;
     }
     let petImage = document.getElementById('the_pet');
     petImage.width = 115 + pet_info.weight;
